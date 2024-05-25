@@ -2,3 +2,26 @@ html {
   height: 100%;
   width: 100%;
 }
+/*changing color of background, font color, font size, font-family*/
+body{
+  background-color: rgb(240, 197, 141);
+  color: blue;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+/*Added a container*/
+.container{
+  width: 80;
+  margin: 20px;
+}/*Added background color, margin, border, and padding to box*/
+.box-1{
+   background-color: antiquewhite;
+   margin: 5px;
+  border: 3px blue solid;
+  padding-left: 10px;
+}
+/*Adding style to button*/
+.button{
+  background-color: rgb(129, 129, 233);
+   padding-bottom: 3px;
+}
