@@ -1,4 +1,69 @@
 body{
-    background-color: bisque;
-    color: rgb(70, 46, 17);
+    
+    color: rgb(100, 193, 230);
+    border: rgb(231, 151, 31) 3px solid;
+   
+
+
+    font-family:'Times New Roman', Times, serif
+    font-size 17px;
+
+    Line-height: 1.6em;
+}
+.container{
+    margin:auto;
+    width: 80%;
+    padding-bottom: 25px;
+   
+    
+   
+}
+
+
+.box-1{
+    
+    color: aqua;
+    padding:7px;
+    border: 2px rgb(235, 158, 17) solid;
+    margin: auto;
+
+    
+}
+.box-2{
+   
+    padding: 10px;
+    border: 2px rgb(243, 121, 6) solid;
+}
+    
+.photoset{
+    
+   
+    border: 2px rgb(192, 159, 10) solid;
+    margin-top: 25px;
+   
+}
+.videoset{
+   
+    padding: 0px;
+    border: 2px rgb(228, 142, 14) solid;
+    margin-top: 25px;
+
+}
+#myVideo{
+    
+    position:fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 70%;
+    min-height: 100%;
+    margin-left:0px;
+}
+.content{
+    position: fixed;
+    bottom: 0;
+    
+    width: 97%;
+    margin-right: 10px;
+    
 }
